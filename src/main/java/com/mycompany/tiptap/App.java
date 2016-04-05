@@ -1,13 +1,28 @@
 package com.mycompany.tiptap;
 
 /**
- * Hello world!
+ * Tap
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+
+    private int tapCounter = 1;
+
+    public int tap() {
+        return tapCounter++;
+    }
+
+
+    /**
+     * Main method
+     *
+     * @param args
+     */
+    public static void main( String[] args ) throws InterruptedException {
+        App app = new App();
+        while (true) {
+            Thread.sleep(1000);
+            System.out.println(app.tap());
+        }
     }
 }
