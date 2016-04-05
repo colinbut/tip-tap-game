@@ -5,6 +5,7 @@
  */
 package com.mycompany.tiptap;
 
+import com.mycompany.tiptap.singleplayer.Tap;
 import org.junit.Assert;
 import org.junit.Test;
 

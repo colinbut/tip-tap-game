@@ -3,17 +3,20 @@
  * | Copyright © 2016 Colin But. All rights reserved. 
  * |-------------------------------------------------
  */
-package com.mycompany.tiptap;
+package com.mycompany.tiptap.multiplayer;
 
+/**
+ * @author colin
+ */
 public class Tap {
 
-    private int counter;
+    private volatile int counter;
 
-    public void tap() {
+    public void tap(){
         counter++;
     }
 
-    public int getCounter() {
+    public int getCounter(){
         return counter;
     }
 }
