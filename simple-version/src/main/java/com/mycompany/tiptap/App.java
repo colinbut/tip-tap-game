@@ -10,7 +10,7 @@ public class App {
     private int tapCounter = 1;
 
     public int tap() {
-        return tapCounter++;
+        return ++tapCounter;
     }
 
 
