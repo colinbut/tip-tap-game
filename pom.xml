@@ -1,19 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.tiptap</groupId>
-  <artifactId>tip-tap</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0</version>
-  <name>tiptap</name>
-  
-  <modules>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.tiptap</groupId>
+    <artifactId>tip-tap</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>tiptap</name>
+
+    <modules>
         <module>simple-version</module>
         <module>console-version</module>
+        <module>web-version</module>
     </modules>
 
 
-  <build>
+    <build>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -25,7 +26,7 @@
                     </configuration>
                 </plugin>
             </plugins>
-      </pluginManagement>
-  </build>
+        </pluginManagement>
+    </build>
 
 </project>
