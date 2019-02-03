@@ -1,9 +1,13 @@
 package com.mycompany.tiptap;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * Tip tap game
  *
+ * @author colin
  */
+@SpringBootApplication
 public class App {
 
     /**
